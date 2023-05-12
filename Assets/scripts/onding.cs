@@ -68,7 +68,7 @@ public class onding : MonoBehaviour
         }
 
         //går
-        kropp.AddForce(gåx, 0, gåz);
+        kropp.AddForce(gåx * 2, 0, gåz * 2);
 
         if (går == true)
         {
